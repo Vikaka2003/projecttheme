@@ -1,0 +1,15 @@
+/*
+ * Constants
+ *
+ * Keep colors and reusable theme values here.
+ */
+:root {
+  --theme-color-primary: #FFFBF4;
+  --theme-color-secondary: #262626;
+--theme-color-tertiary: #262626;
+--theme-color-accent: #f9f0dd;
+--theme-color-body: #FFFBF4;
+
+
+  --theme-transition: all 0.3s ease-in-out;
+}

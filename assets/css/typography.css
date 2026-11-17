@@ -1,0 +1,63 @@
+/*
+ * Typography
+ */
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  color: var(--theme-color-secondary);
+  font-family: 'Neue Montreal', sans-serif;
+  font-size: var(--theme-font-size-body);
+  font-height:var(--theme-font-height-body);
+  }
+a,
+a:hover,
+a:focus,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.intro-kicker {
+  letter-spacing: 0.08em;
+  opacity: 0.75;
+}
+
+.intro-title {
+  line-height: 1.1;
+}
+
+.intro-text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+@afont-face {
+  font-display: swap;
+  font-family: 'Neue Montreal';
+  src: url('../fonts/Neue-Montreal.woff2') format('otf'),
+       url('../fonts/Neue-Montreal.woff') format('otf');
+  font-weight: 400;
+  font-style: normal;
+}
+@afont-face {
+  font-display: swap;
+  font-family: 'Neue Montreal';
+  src: url('../fonts/Neue-Montreal.woff2') format('otf'),
+       url('../fonts/Neue-Montreal.woff') format('otf');
+  font-weight: 500;
+  font-style: normal;
+}
+@afont-face {
+  font-display: swap;
+  font-family: 'PPEditorialNew';
+  src: url('../fonts/PPEditorialNew.woff2') format('otf'),
+       url('../fonts/PPEditorialNew.woff') format('otf');
+  font-weight: 500;
+  font-style: normal;
+}
