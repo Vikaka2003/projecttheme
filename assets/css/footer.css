@@ -4,7 +4,7 @@
 footer {
   background-color: var(--theme-color-accent);
   display: flex;
-  color: #ffffff;
+  color: #959595;
 }
 
 footer .footer-content {
